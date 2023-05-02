@@ -1,0 +1,28 @@
+{
+    "ldap": {
+        "openLdap1": {
+            "url": "ldap://domain:389/DC=company,DC=org",
+            "masterDn": "",
+            "password": "",
+            "useSSL": false,
+            "connectionTO": 20000,
+            "responseTO": 30000,
+            "minPoolSize": 1,
+            "maxPoolSize": 5
+        }
+    },
+    "blacklist": [
+        {
+            "product": "IntelliJ IDEA",
+            "ldap": "openLdap1",
+            "matchCondition": "(&(objectCategory=user)(uid=${userName}))"
+        }
+    ],
+    "whitelist": [
+        {
+            "product": "IntelliJ IDEA",
+            "ldap": "openLdap1",
+            "matchCondition": "(&(objectCategory=user)(uid=${userName}))"
+        }
+    ]
+}
