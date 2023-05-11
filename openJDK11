@@ -5,3 +5,6 @@
   # RPM 패키지 Downloads
    http://mirror.centos.org/centos/
    http://mirror.centos.org/centos/7.9.2009/os/x86_64/Packages/java-11-openjdk-11.0.9.11-2.el7_9.x86_64.rpm
+   
+   http://mirror.centos.org/centos/7/os/x86_64/Packages/
+   http://mirror.centos.org/centos/7/os/x86_64/Packages/tzdata-java-2023c-1.el7.noarch.rpm
