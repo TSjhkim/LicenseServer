@@ -1,7 +1,8 @@
-1:java-11-openjdk-headless-11.0.19.0.7-1.el7_9.x86_64: [Errno 256] No more mirrors to try.
-  1:java-11-openjdk-11.0.19.0.7-1.el7_9.x86_64: [Errno 256] No more mirrors to try.
-  tzdata-java-2023c-1.el7.noarch: [Errno 256] No more mirrors to try.
-  
+  # 설치 순서
+  tzdata-java-2023c-1.el7.noarch
+  java-11-openjdk-headless-11.0.19.0.7-1.el7_9.x86_64
+  java-11-openjdk-11.0.19.0.7-1.el7_9.x86_64
+ 
   # RPM 패키지 Downloads
    http://mirror.centos.org/centos/
    http://mirror.centos.org/centos/7.9.2009/os/x86_64/Packages/java-11-openjdk-11.0.9.11-2.el7_9.x86_64.rpm
